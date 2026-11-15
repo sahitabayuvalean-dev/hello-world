@@ -1,4 +1,4 @@
 <?php
 function calculatePrice(int|float $qty, int|float $price) {
-    return $qty * $price;
+    return $qty * $price * 1.1;
 }
